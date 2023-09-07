@@ -38,15 +38,6 @@ fun MainScreen(){
         )
         Spacer(modifier = Modifier.height(20.dp))
         Text(text = vlrDoTextField.value)
-
-        Button(onClick = {
-            //contador.value = contador.value + 1
-            contador.value ++
-        }) {
-            Text(text = "Contar!")
-        }
-
-        Text(text = contador.value.toString())
     }
 
 }
